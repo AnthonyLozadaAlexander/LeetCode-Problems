@@ -7,6 +7,7 @@ public class TwoSum {
 
         for (int i = 0; i < nums.length; i++) {
             if (nums[firtsIndex] + nums[i] == target) {
+                System.out.println("Resultado: " + (nums[firtsIndex] + nums[i]));
                 System.out.println("Return Indices: "
                         + "\n" + "[" + firtsIndex + "]"
                         + "\n" + "[" + i + "]");
