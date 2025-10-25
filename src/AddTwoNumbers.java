@@ -18,7 +18,7 @@ public class AddTwoNumbers {
         for (int i = 0; i < L1.size(); i++) {
             if (carry == 1) {
                 sum = L1.get(i) + L2.get(i) + carry;
-            } else {
+            } else if (carry == 0) {
                 sum = L1.get(i) + L2.get(i);
             }
             carry = sum / 10; // el carry sera 1 si la suma es mayor a 10 y 0 si es menor a 10
