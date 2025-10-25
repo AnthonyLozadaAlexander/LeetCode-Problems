@@ -4,7 +4,10 @@ import java.util.Arrays;
 public class AddTwoNumbers {
     void main() {
 
+        // Nodo1
         ArrayList<Integer> L1 = new ArrayList<Integer>();
+
+        // Nodo2
         ArrayList<Integer> L2 = new ArrayList<Integer>();
 
         int[] resultado = new int[3];
